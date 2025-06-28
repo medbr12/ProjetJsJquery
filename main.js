@@ -40,4 +40,5 @@ else if(parseFloat(my_number.value)%2===0 && !tab_paires.includes(parseFloat(my_
       td_impaires.innerHTML += `<li>${my_number.value}</li>`
     tab_impaires.push(parseFloat(my_number.value))
 }
+// add commantaire
 })
